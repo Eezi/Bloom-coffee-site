@@ -1,6 +1,6 @@
 {
   "title": "Rolodex",
-  "extraSampleCSS": ".rolodex { max-width: 900px }",
+  "extraSampleCSS": ".rolodex { max-width: 900px } body { min-height: 3000px }",
   "context": {
     "items": [
       {
