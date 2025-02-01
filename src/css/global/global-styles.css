@@ -33,6 +33,15 @@ h3 {
   font-size: var(--size-step-4);
 }
 
+:is(h1, h2, h3, h4):where(
+    [class*='text-step-10'],
+    [class*='text-step-11'],
+    [class*='text-step-12']
+  ) {
+  line-height: var(--leading-micro);
+  font-weight: var(--font-black);
+}
+
 :is(h2, h3) {
   max-width: 35ch;
 }
